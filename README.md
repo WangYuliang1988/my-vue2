@@ -1,11 +1,13 @@
 Vue 学习工程
 
 ## Vue 简介
+参考：https://cn.vuejs.org/v2/guide/
+
 Vue 是一个用于构建UI的渐进式 JavaScript 框架。
 
-参考：https://cn.vuejs.org/v2/guide/。
-
 ## Vue CLI 简介
+参考：https://cli.vuejs.org/zh/guide/
+
 Vue CLI是一个基于 Vue.js 进行快速开发的完整系统，致力于将Vue生态中的工具基础标准化，使开发人员专注于编写应用，而不必纠结配置的问题。
 
 CLI 即 Command Line Interface，命令行交互界面，又称脚手架。
@@ -29,5 +31,3 @@ vue-cli-service 命令：
 
 ### CLI 插件
 CLI 插件是向 Vue 项目提供可选功能的 npm 包。Vue CLI 插件的名字以 @vue/cli-plugin- (内建插件) 或 vue-cli-plugin- (社区插件) 开头。
-
-参考：https://cli.vuejs.org/zh/guide/。
