@@ -1,11 +1,11 @@
 Vue 学习工程
 
-## Vue 简介
+## Vue
 参考：https://cn.vuejs.org/v2/guide/
 
 Vue 是一个用于构建UI的渐进式 JavaScript 框架。
 
-## Vue CLI 简介
+## Vue CLI
 参考：https://cli.vuejs.org/zh/guide/
 
 Vue CLI是一个基于 Vue.js 进行快速开发的完整系统，致力于将Vue生态中的工具基础标准化，使开发人员专注于编写应用，而不必纠结配置的问题。
@@ -31,3 +31,12 @@ vue-cli-service 命令：
 
 ### CLI 插件
 CLI 插件是向 Vue 项目提供可选功能的 npm 包。Vue CLI 插件的名字以 @vue/cli-plugin- (内建插件) 或 vue-cli-plugin- (社区插件) 开头。
+
+## Vue Router
+参考：https://v3.router.vuejs.org/
+
+Vue Router 是 Vue.js 官方的路由插件，用于构建单页面应用。
+
+Vue Router 是基于路由和组件的，具体来说：
+- 路由是一组映射关系（key-value），用来将路径（key）和组件（value）映射起来；
+- 在单页面应用中，页面路径的改变实际上是组件的切换。
