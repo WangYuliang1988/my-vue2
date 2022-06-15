@@ -1,13 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router' // 相当于'./router/index.js'，加载某个目录下的index.js文件时可以简写
+import store from './store' // 相当于'./router/index.js'，加载某个目录下的index.js文件时可以简写
 
 Vue.config.productionTip = false // 设置为true时，开发环境下控制台会出现"You are running Vue in development mode..."的提示
 
 new Vue({
-  // 将router实例挂载到Vue实例中，该写法是'router': router的简写
+  // 将router实例挂载到Vue实例中，该写法是router: router的简写
   // 挂载后，即可在任何组件内通过this.$router访问路由器，通过this.$route访问当前路由
   router,
+  // 将store实例挂载到Vue实例中，该写法是store: store的简写
+  // 挂载后，即可在任何组件内通过this.$store访问路由器，通过this.$store访问当前路由
+  store,
   // Vue通过建立一个虚拟DOM来追踪如何改变真实DOM，该虚拟DOM中的节点称为虚拟节点（VNode）
   // render函数的作用，是将App.vue组件内容渲染成虚拟节点VNode
   // render函数的形参h，在render方法被调用时传入的实参是createElement函数
