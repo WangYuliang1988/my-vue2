@@ -10,7 +10,7 @@ new Vue({
   // 挂载后，即可在任何组件内通过this.$router访问路由器，通过this.$route访问当前路由
   router,
   // 将store实例挂载到Vue实例中，该写法是store: store的简写
-  // 挂载后，即可在任何组件内通过this.$store访问路由器，通过this.$store访问当前路由
+  // 挂载后，即可在任何组件内通过this.$store访问Vuex的仓库
   store,
   // Vue通过建立一个虚拟DOM来追踪如何改变真实DOM，该虚拟DOM中的节点称为虚拟节点（VNode）
   // render函数的作用，是将App.vue组件内容渲染成虚拟节点VNode

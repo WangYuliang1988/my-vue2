@@ -1,4 +1,5 @@
 {
+  "aboutThisFile": "该文件供 Visual Studio Code 使用，表明这是一个 JavaScript 工程，可以通过一些配置来提升开发体验和开发效率（如使用@代表根目录）。",
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
