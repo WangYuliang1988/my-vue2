@@ -1,4 +1,4 @@
-Vue 学习工程
+Vue 2 学习工程
 
 ## Vue
 参考：https://cn.vuejs.org/v2/guide/
